@@ -1,1 +1,74 @@
-[]
+[
+  {
+    "id": "cs2",
+    "name": "Counter-Strike 2",
+    "engine": "Source 2",
+    "yaw": 0.022,
+    "source": "Valeur par défaut de la commande console m_yaw",
+    "verified": true,
+    "aims": []
+  },
+  {
+    "id": "abi",
+    "name": "Arena Breakout: Infinite",
+    "engine": "Unreal Engine",
+    "yaw": 0.102375,
+    "source": "Mesure communautaire (keymap.io), cohérente avec mouse-sensitivity.com",
+    "verified": false,
+    "aims": []
+  },
+  {
+    "id": "valorant",
+    "name": "Valorant",
+    "engine": "Unreal Engine",
+    "yaw": 0.07,
+    "source": "Convertisseurs communautaires (csdb.gg/sensitivity-converter/valorant-to-cs2) : ratio 0.07 / 0.022 = 3.1818",
+    "verified": false,
+    "aims": []
+  },
+  {
+    "id": "apex",
+    "name": "Apex Legends",
+    "engine": "Source (modifié)",
+    "yaw": 0.022,
+    "source": "Convertisseurs communautaires (csdb.gg/sensitivity-converter/apex-to-cs2) : même yaw que Source ; pas de m_yaw modifiable en jeu",
+    "verified": false,
+    "aims": []
+  },
+  {
+    "id": "overwatch2",
+    "name": "Overwatch 2",
+    "engine": "Blizzard (propriétaire)",
+    "yaw": 0.0066,
+    "source": "Convertisseurs communautaires (csdb.gg/sensitivity-converter/overwatch-2-to-cs2) : ratio CS2 → OW2 = ×3.333",
+    "verified": false,
+    "aims": []
+  },
+  {
+    "id": "deadlock",
+    "name": "Deadlock",
+    "engine": "Source 2",
+    "yaw": 0.044,
+    "source": "Convertisseurs communautaires (mouse-sensitivity.com/n/cs2-to-deadlock, skin.club) : CS2 ÷ 2",
+    "verified": false,
+    "aims": []
+  },
+  {
+    "id": "kovaaks",
+    "name": "KovaaK's (échelle Source / CS)",
+    "engine": "Unreal Engine",
+    "yaw": 0.022,
+    "source": "Valeur de l'échelle « Source/CS » ; dépend de l'échelle de sensibilité choisie dans KovaaK's (vérifier le réglage)",
+    "verified": false,
+    "aims": []
+  },
+  {
+    "id": "aimlab",
+    "name": "Aim Lab (échelle Aim Lab)",
+    "engine": "Unity",
+    "yaw": 0.07,
+    "source": "Convertisseurs communautaires (mouse-sensitivity.com/n/aimlabs, aiming.pro) ; dépend de l'échelle de sensibilité choisie dans Aim Lab",
+    "verified": false,
+    "aims": []
+  }
+]
