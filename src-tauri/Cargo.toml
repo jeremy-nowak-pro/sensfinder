@@ -1,0 +1,27 @@
+[package]
+name = "sens-finder"
+version = "0.1.0"
+description = "Find and convert FPS mouse sensitivity across games"
+authors = ["Jeremy Nowak"]
+license = ""
+repository = "https://github.com/jeremy-nowak-pro/sensfinder"
+edition = "2024"
+rust-version = "1.90"
+
+[lib]
+name = "sens_finder_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2.7.4", features = [] }
+
+[dependencies]
+tauri = { version = "2.12.5", features = [] }
+tauri-plugin-store = "2.5"
+
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = 3
+panic = "abort"
+strip = true

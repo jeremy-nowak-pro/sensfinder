@@ -1,0 +1,23 @@
+:root {
+  color-scheme: dark;
+  --bg: #111316;
+  --fg: #e6e8eb;
+  --muted: #8b929c;
+  font-family: system-ui, "Segoe UI", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: var(--bg);
+  color: var(--fg);
+}
+
+.shell {
+  padding: 32px;
+}
+
+.shell p {
+  color: var(--muted);
+}
